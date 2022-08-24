@@ -26,3 +26,7 @@ func PutV(s string, vals ...string) {
 func TraceOver(level uint) bool {
 	return (threshold <= level)
 }
+
+func ExitProgram(n int) {
+	os.Exit(n)
+}
